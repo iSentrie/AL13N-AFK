@@ -14,6 +14,7 @@ Citizen.CreateThread(function()
 					time = time - 1
 				else
 					TriggerServerEvent("AL13N-AFK:afk")
+					break
 				end
 			else
 				time = Config.timeAFK
